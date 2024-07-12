@@ -1,0 +1,2 @@
+python3 -m salvus_mesh_lite.interface AxiSEMCartesian --basic.model homo.bm --basic.period 0.5 --cartesian2Daxisem.x 125. --advanced.elements_per_wavelength 4 --cartesian2Daxisem.min_z 0.0 --attenuation.frequencies 0.01 10. --output_filename  homo1.e
+

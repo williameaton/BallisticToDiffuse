@@ -83,7 +83,10 @@ for event in ['2013', '2015']:
         print("cm: ", cm)
 
         # Plot matrix:
-        im = ax[1,chl].imshow(C, extent=(freq_out[0], freq_out[-1], freq_out[0], freq_out[-1]),origin='lower', cmap='magma_r')
+        im = ax[1,chl].imshow(C,
+                              extent=(freq_out[0], freq_out[-1], freq_out[0], freq_out[-1]),
+                              origin='lower',
+                              cmap='magma_r')
 
         # Set plot title and colourbar
         fig.colorbar(mappable=im, ax=ax[1,chl], use_gridspec=True)

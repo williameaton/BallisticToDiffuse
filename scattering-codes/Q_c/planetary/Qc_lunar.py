@@ -2,11 +2,10 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 sys.path.append("../")
-from calc_qc_func import get_QC
 import obspy as ob
 import obspy.core.stream as ocs
 from load_avg_Qc import calc_avg_QC
-from qc_funcs import plot_decay_curve
+from qc_funcs import plot_decay_curve, get_QC
 
 # SPECIFY EVENT and time slices used to compute Qc:
 # Uncomment the desired event

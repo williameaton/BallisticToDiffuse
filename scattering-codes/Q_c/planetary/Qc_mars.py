@@ -3,9 +3,8 @@ import matplotlib.pyplot as plt
 import obspy
 from wetools import norm
 import sys; sys.path.append('../')
-from calc_qc_func import get_QC_interpolate
 from load_avg_Qc import calc_avg_QC
-from qc_funcs import plot_decay_curve
+from qc_funcs import plot_decay_curve, get_QC_interpolate
 
 def calc_exp_curve(t_exp, freq, Qc):
     return norm(np.exp(-(2 * np.pi * freq * t_exp) / Qc))
@@ -97,4 +96,4 @@ ax_result[3].set_title(f"{mean_reduced} +- {std_reduced}: offset: {offset}")
 
 
 #plt.show()
-plt.savefig(fname=f"MARS_QC_{event_name}_GLITCHES_INTERP.pdf", dpi='figure', format='pdf')
+plt.savefig(fname=f"./pdfs/MARS_QC_{event_name}_GLITCHES_INTERP.pdf", dpi='figure', format='pdf')

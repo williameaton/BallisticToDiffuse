@@ -1,8 +1,7 @@
 import obspy
 import numpy as np
 import sys; sys.path.append('../')
-from calc_qc_func import get_QC
-from qc_funcs import plot_decay_curve
+from qc_funcs import plot_decay_curve, get_QC
 from load_avg_Qc import calc_avg_QC
 
 networks = {"ARG": "HL", "RDO": "HL", "ITM": "HL", "VSU": "GE", "A36M": "TA", "MHLO": "HL"}

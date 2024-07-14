@@ -8,7 +8,7 @@ a_list = ["1.5"]
 l_list = [3]
 
 stns    = "q"
-path    = "../../Scattering/data/processed/"
+path    = "../../data/processed/"
 outpath = "../../data/Qc/"
 
 for l in l_list:

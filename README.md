@@ -18,7 +18,7 @@ Last updated: July 11 2024
 
 Accompanying these scripts is ~ 150 Gb of data. Evidently this can not be hosted in this GitHub repository and so is hosted at the following DOI: 
 
-10.5281/zenodo.12745350
+doi.org/10.5281/zenodo.12745350
 
 This tarball can be untarred using 
 

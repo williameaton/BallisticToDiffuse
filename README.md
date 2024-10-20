@@ -16,7 +16,7 @@ Last updated: July 11 2024
 
 ### Data access: 
 
-Accompanying these scripts is ~ 150 Gb of data. Evidently this can not be hosted in this GitHub repository and so is hosted [**here**](doi.org/10.5281/zenodo.12745350).
+Accompanying these scripts is ~ 150 Gb of data. Evidently this can not be hosted in this GitHub repository and so is hosted [**here**](https://doi.org/10.5281/zenodo.12745350).
 
 This tarball can be untarred using 
 
